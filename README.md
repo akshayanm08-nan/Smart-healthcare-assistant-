@@ -55,31 +55,3 @@ Open the local URL shown in the terminal (usually http://localhost:8501).
 4. Open **Prescription reader** and upload a sample/fake prescription image.
 5. Open **Medicine reminders** and add a schedule using instructions already confirmed by a clinician/pharmacist.
 
-## Project structure
-```text
-carebridge-ai/
-├── app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-## GitHub upload
-1. Sign in to GitHub and create a new **public** or **private** repository named `carebridge-ai`.
-2. Keep **Add a README** unchecked (this folder already includes one).
-3. On your computer, extract this ZIP and open a terminal inside the `carebridge-ai` folder.
-4. Run:
-```bash
-git init
-git add app.py requirements.txt README.md .gitignore
-git commit -m "Initial CareBridge AI hackathon prototype"
-git branch -M main
-git remote add origin https://github.com/akshayanm08-nan/carebridge-ai.git
-git push -u origin main
-```
-## Suggested next improvements
-- Add authentication and role-based access (patient/caregiver/clinician)
-- Add consent-based caregiver notifications through a secure provider
-- Add reviewed translation strings for supported languages
-- Add test coverage and deployment configuration
-- Conduct clinical, privacy, security and regulatory review before any real-world use
