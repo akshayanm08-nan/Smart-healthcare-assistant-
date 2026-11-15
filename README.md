@@ -77,8 +77,6 @@ git branch -M main
 git remote add origin https://github.com/akshayanm08-nan/carebridge-ai.git
 git push -u origin main
 ```
-Replace `akshayanm08-nan` with your GitHub username.
-
 ## Suggested next improvements
 - Add authentication and role-based access (patient/caregiver/clinician)
 - Add consent-based caregiver notifications through a secure provider
